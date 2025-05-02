@@ -5,7 +5,7 @@ A simple web-based Age Calculator built using HTML, CSS, and JavaScript. This mi
 1. Input field for selecting date of birth.
 2. Calculates and displays:
     1. Age in years, months, and days.
-3. Clean UI.
+3. Responsive design and Clean UI.
 
 ## Technologies Used
 1. HTML – for the page structure
