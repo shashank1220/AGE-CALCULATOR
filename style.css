@@ -14,8 +14,7 @@
 .calculator {
     width: 100%;
     max-width: 600px;
-    margin-left: 30%;
-    margin-top: 10%;
+    margin: 10% auto;
 }
 .calculator h1 {
     font-size: 60px;
@@ -28,6 +27,8 @@
     border: 1px solid #ffffff;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .input-box input {
     flex: 1;
@@ -66,4 +67,20 @@
 }
 #result span {
     color: #fbff00;
+}
+@media (max-width: 768px) {
+    .calculator h1 {
+        font-size: 40px;
+    }
+    .input-box {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .input-box input, .input-box button {
+        width: 100%;
+        margin-right: 0;
+    }
+    .input-box input {
+        margin-bottom: 10px;
+    }
 }
